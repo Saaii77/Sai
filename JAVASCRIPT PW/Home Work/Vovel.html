@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOVELS</title>
+</head>
+<body>
+    <!-- w.a.p  which will check enter aplphabate is vovel or consonant -->
+
+<h1 id="demo"></h1>
+ <script>
+
+    var value= prompt("Enter Your Alphabets");
+        // vovel = [a,e,i,o,u];
+        document.getElementById('demo').innerHTML=alphabets();
+   function alphabets(value){
+      
+       if(value==a||value==e||value==i||value==o||value==u)
+       {
+           return(value+":- This is Vovels");
+       }
+       else{
+             return(value+":- This is Consonant");
+       }
+      
+   }
+</script>
+
+<!-- w.a.p which will check wether he or she is friend or not -->
+
+<!-- <h1 id="demo"></h1> 
+<script>
+
+var value= prompt("Enter Your Alphabets");
+        vovel = "a,u,i,o,e,A,E,I,O,U";
+        document.getElementById('demo').innerHTML=alphabets();
+   function alphabets(){
+      
+       if(value == vovel )
+       {
+           return (vovel+":- This is Vovels");
+       }
+       else{
+           return (value+":- This is Consonant");
+       }
+      
+   }
+   </script> -->
+
+
+</body>
+</html>
