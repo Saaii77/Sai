@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYE FUNCTION</title>
+</head>
+<body>
+    <h1 id="try"></h1>
+    <h1 id="demo"></h1>
+    <button type="button" onclick="employe()">Click</button>
+    <script>
+        var id=101, name="Sai", age=23, city="loni",sal=50;
+        document.getElementById('try').innerHTML=("Id:-"+id+"<br> Name:-"+name+"<br> Age:-"+age+"<br> City:-"+city+"<br> Salry:-"+sal);
+       
+        function employe()
+        {
+            if(sal>=100000 && sal<200000)
+        {
+              document.getElementById('demo').innerHTML=("You get bonus upto 1,00,000");
+            
+        }
+        else if(sal>=200000 && sal<300000)
+        {
+              document.getElementById('demo').innerHTML=("You get bonus upto 50,000");
+            
+        }
+        else if(sal>=300000 && sal<400000)
+        {
+              document.getElementById('demo').innerHTML=("You get bonus upto 25,000");
+            
+        }
+        else
+        {
+            document.getElementById('demo').innerHTML=("Next Time......"); 
+        }
+        }
+    </script>
+</body>
+</html>

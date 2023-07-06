@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH FUNCTION</title>
+   
+</head>
+<body>
+   
+
+    <script>
+        document.write("Choose 1 for Addition" + "<br>");
+        document.write("Choose 2 for Subtraction" + "<br>");
+        document.write("Choose 3 for Multiplication" + "<br>");
+        document.write("Choose 4 for Division");
+    </script>
+     <h1 id="try"></h1>
+    
+     <button type="button" onclick="lotas()">Click</button>
+    <script>
+
+        function lotas()
+        {
+    var choice=parseInt(prompt("Enter your Choice"));
+    switch (choice)
+    {
+        case 1:
+            var a,b,c;
+            a=parseInt(prompt("Enter valu of A :-"));
+            b=parseInt(prompt("Enter valu of B :-"));
+            
+            c=a+b;
+            document.getElementById('try').innerHTML= (c+" Addition");
+            break;
+
+         case 2:
+            a=parseInt(prompt("Enter valu of A :-"));
+            b=parseInt(prompt("Enter valu of B :-"));
+            c=a-b;
+            document.getElementById('try').innerHTML= ("Substration :"+c);
+            break;
+            
+
+        case 3:
+            a=parseInt(prompt("Enter valu of A :-"));
+            b=parseInt(prompt("Enter valu of B :-"));
+            c=a*b;
+            document.getElementById('try').innerHTML= ("Multiplicatoin :-"+c);
+            break;
+           
+
+        case 4:
+            a=parseInt(prompt("Enter valu of A :-"));
+            b=parseInt(prompt("Enter valu of B :-"));
+            c=a/b;
+            document.getElementById('try').innerHTML= ("Division :-"+c);
+           break;
+    }
+
+    } 
+
+
+</script> 
+
+ 
+</body>
+</html>

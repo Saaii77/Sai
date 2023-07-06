@@ -1,0 +1,75 @@
+.mystyle{
+    border: 2px solid black;
+    height: 700px;
+    width: 1500px;
+    background-color:lightgray;
+    margin-left: 20px;
+   
+   }
+   .facebook{
+    color: blue;
+    font-size: 50px;
+    margin-top: 280px;
+    margin-left: 100px;
+    display: inline-block;
+   }
+   .title{
+    margin-left: 100px;
+    display: inline-block;
+   }
+   /*  */
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f7fb;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    margin-left: 695px;
+    margin-top: -255px;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4267b2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #4267b2;
+    text-decoration: none;
+  }
+  .new{
+    background-color: green;
+    width: 200px;
+  }
+  .write{
+    margin-left: 837px;
+    
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employe</title>
+</head>
+<body>
+    <script>
+        var id,name,age,city,sal;
+
+        id=prompt("Enter Id ");
+        name=prompt("Enter Name");
+        age=prompt("Enter Age");
+        city=prompt("Enter City");
+        sal=prompt("Enter salary");
+
+        document.write("Id :-"+id+"<br>");
+        document.write("Name :-"+name+"<br>");
+        document.write("Age:-"+age+"<br>");
+        document.write("City :-"+city+"<br>");
+        document.write("Salary:-"+sal+"<br>");
+        // if-else condition
+        // if(sal>=20000)
+        // {
+        //     document.write(sal+" "+"Your are parmanant in our company");
+        // }
+        // else{
+        //     document.write(sal+" "+"Your are not eligibal for parmanant in our company");
+        // }
+
+        // if-else-if condition(nested-if)
+        if(sal>=800000)
+        {
+            if(sal<100000){
+                document.write("You get bonus upto 1,00,000");
+            }
+            
+        }
+        if(sal>=600000)
+        {
+            if(sal<800000){
+                document.write("You get bonus upto 50,000");
+            }
+            
+        }
+        if(sal>=400000)
+        {
+            if(sal<600000){
+                document.write("You get bonus upto 25,000");
+            }
+            
+        }
+    </script>
+</body>
+</html>

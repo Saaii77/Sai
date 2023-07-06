@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- 
+    9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384- 
+    geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Form validation</title>
+</head>
+<body>
+    <!-- VALIDATION -->
+    <div class="comtainer mt-3">
+        <form class="was-validated"> 
+            <div class="form-group">
+                <label class="form-label">Enter your name :</label>
+                <input type="text" name="fname" class="form-control" required>
+                <div class="valid-feedback">correct Data Inserted</div>
+                <div class="invalid-feedback">incorrect Data Inserted</div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Enter your Email :</label>
+                <input type="email" name="email" class="form-control" required>
+                <div class="valid-feedback">correct Email Inserted</div>
+                <div class="invalid-feedback">incorrect Email Inserted</div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Enter your Password :</label>
+                <input type="password" name="pass" class="form-control" required>
+                <div class="valid-feedback">correct Password Inserted</div>
+                <div class="invalid-feedback">incorrect Password Inserted</div>
+            </div>
+     <!-- checkbox -->
+            <div class="form-check">
+                <label class="form-check-label">SSC</label>
+                <input type="checkbox" name="edu" class="form-check-input" value="ssc" required>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">HSC</label>
+                <input type="checkbox" name="edu" class="form-check-input" value="HSC" required>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">UG</label>
+                <input type="checkbox" name="edu" class="form-check-input" value="UG" required>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">PG</label>
+                <input type="checkbox" name="edu" class="form-check-input" value="PG" required>
+            </div>
+     <!-- Redio button -->
+            <div class="form-check">
+                <label class="form-check-label">PG</label>
+                <input type="checkbox" name="edu" class="form-check-input" value="PG" required>
+            </div>
+        </form>
+    </div>.
+    <br>
+    <hr>
+    <!-- CARD -->
+   <div class="container mt-4">
+    <div class="card">
+        <div class="card-header">This is card header </div>
+    </div>
+    <div class="card">
+        <div class="card-body">This is card body </div>
+    </div>
+    <div class="card">
+        <div class="card-footer">This is card footer </div>
+    </div>
+    <br>
+    <div class="card" style="width: 300px;">
+        <img src="../BOOTSTRAP/img/jio tv.jfif" alt="amezon">
+        <div class="card-body">
+            <h3 class="card-titel">Amezon</h3>
+            <p class="card-text">This is a popular App</p>
+            <a href="" class="card-link">Click Here</a><br>
+            <button type="button" class="btn btn-info">Know More</button>
+        </div>
+  </div>
+  <br>
+
+  <div class="card" style="width: 300px;">
+    <img src="../BOOTSTRAP/img/jio tv.jfif" alt="amezon">
+    <div class="card-body card-img-overlay">
+        <h3 class="card-titel">Amezon</h3>
+        <p class="card-text">This is a popular App</p>
+        <a href="" class="card-link">Click Here</a><br>
+        <button type="button" class="btn btn-info">Know More</button>
+    </div>
+</div>
+
+   </div>
+
+   <!-- Aleart -->
+   <div class="container mt-3">
+    <div class="alert">this is a aleart box</div>
+    <div class="alert alert-danger">this is a aleart box</div>
+    <div class="alert alert-primary">this is a aleart box</div>
+    <hr>
+    <div class="alert alert-danger alert-dismissible">This is alert box</div>
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+   </div>
+<br>
+<hr>
+
+  <div class="container">
+    <label class="form-label">Enter your Email :</label>
+    <input type="email" name="email" class="form-control" required>
+  </div>
+</body>
+</html>

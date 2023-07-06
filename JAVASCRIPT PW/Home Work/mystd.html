@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         document.write("choose 1 for Addition"+"<br>");
+        document.write("choose 2 for Area of Circle"+"<br>");
+        document.write("choose 3 for Full Name"+"<br>");
+        document.write("choose 4 for Avreage"+"<br>");
+        document.write("choose 5 for Evean or Odd");
+    </script>
+    <h1 id="demo"></h1>
+    <button type="button" onclick="myFunction()">Chack</button>
+    <script>
+       
+
+        function myFunction()
+        {
+            var choice=parseInt(prompt("Enter your Choice"));
+    switch (choice)
+    {
+        
+        
+        case 1:
+        document.write(addition(2,4,6,8,10));
+    function addition(a,b,c,d,e)
+    {
+       
+        return a+b+c+d+e ;
+    }
+            
+            break;
+
+
+
+         case 2:
+            document.write(areaCircle(2));
+    function areaCircle(r)
+    {
+       
+        return 3.14*r**2 ;
+    }
+            break;
+            
+
+        case 3:
+        document.write(fullName("Sai ,Pandurang ,Dongare"));
+    function fullName(fname,mname,lname)
+    {
+       
+        return fname+mname+lname;
+    }
+            break;
+           
+
+        case 4:
+        document.write(average(2,4,6,8));
+    function average(a,b,c,d)
+    {
+    
+        return (a+b+c+d)/4;
+    }
+           break;
+    
+
+    case 5:
+    document.writeeveanodd(6);
+    function eveanodd(a)
+    {
+    if(a%2==0){
+        return (a+"Value is Evean");
+
+    }
+       
+    else{
+        return (a+"Value is Odd");
+
+    }
+    }
+           break;
+
+
+    } 
+}
+
+        
+
+    </script>
+</body>
+</html>

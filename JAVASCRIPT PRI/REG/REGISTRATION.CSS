@@ -1,0 +1,41 @@
+.mystyle{
+    border: 2px solid black;
+    height: 700px;
+    width: 1500px;
+    background-image: url(../IMAGE/iron-man2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+   
+}
+h2{
+    margin-top: 50px;
+   margin-left: 100px;
+   color: silver;
+}
+.fname{
+    margin-left: 100px;
+   color: silver;
+}
+.container{
+    width: 400px;
+    margin-left: 100px;
+}
+.fname{
+    width: 190px;
+    float: left;
+    margin-top: 24px;
+}
+.lname{
+    width: 200px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.dropdown{
+    display: inline-block;
+    margin-left: 100px;
+}
+.containersp{
+    margin-left: 15px;
+width: 283px;
+}

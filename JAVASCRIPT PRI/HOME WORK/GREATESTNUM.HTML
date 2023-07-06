@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREATEST NUMBER</title>
+</head>
+<body>
+    <h1 id="try"></h1>
+    <h1 id="demo"></h1>
+    <button type="button" onclick="great()">Click</button>
+    <script>
+        var a=6,b=8,c=44;
+        document.getElementById('try').innerHTML=("A:-"+a+"<br> B:-"+b+"<br> C:-"+c);
+        function great()
+        {
+            if(a>b && a>c)
+            {
+                document.getElementById('demo').innerHTML=(a+" A Is Greater");
+            }
+            else if (b>a && b>c)
+            {
+                document.getElementById('demo').innerHTML=(b+" B Is Greater");
+            }
+            else 
+            {
+                document.getElementById('demo').innerHTML=(c+" C Is Greater");
+            }
+           
+        }
+    </script>
+</body>
+</html>

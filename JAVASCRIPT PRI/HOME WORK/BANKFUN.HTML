@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANK FUNCTION</title>
+</head>
+<body>
+    <h1 id="try"></h1>
+    <h1 id="demo"></h1>
+    <button type="button" onclick="bank()">Click</button>
+    <script>
+        var id=101, name="Sai", acc=21563,civil=9;
+        document.getElementById('try').innerHTML=("Id:-"+id+"<br> Name:-"+name+"<br> Account:-"+acc+"<br> Civil:-"+civil);
+       
+        function bank()
+        {
+            if(civil>=3 && civil<4)
+        {
+              document.getElementById('demo').innerHTML=("You get Lone upto 10k");
+            
+        }
+        else if(civil>=4 && civil<5)
+        {
+              document.getElementById('demo').innerHTML=("You get Lone upto 20k");
+            
+        }
+        else if(civil>=5 && civil<6)
+        {
+              document.getElementById('demo').innerHTML=("You get Lone upto 30k");
+            
+        }
+        else if(civil>=6 && civil<7)
+        {
+              document.getElementById('demo').innerHTML=("You get Lone upto 30k");
+            
+        }
+        else if(civil>8 && civil<=10)
+        {
+              document.getElementById('demo').innerHTML=("You get Lone upto 30k");
+            
+        }
+        else
+        {
+            document.getElementById('demo').innerHTML=("Next Time......"); 
+        }
+        }
+    </script>
+</body>
+</html>

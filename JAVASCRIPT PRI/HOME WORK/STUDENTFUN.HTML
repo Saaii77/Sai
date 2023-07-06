@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FUNCTION</title>
+</head>
+<body>
+    <h1 id="try"></h1>
+    <h1 id="demo"></h1>
+    <button type="button" onclick="student()">Click</button>
+    <script>
+        var id=101, name="Sai", cls=12, mark=25;
+        document.getElementById('try').innerHTML=("Id:-"+id+"<br> Name:-"+name+"<br> Class:-"+cls+"<br> Mark:-"+mark);
+        function student()
+        {
+            if(mark>=80 && mark<100)
+            {
+                document.getElementById('demo').innerHTML=(name+" Is Distingsion");
+            }
+            else if (mark>=50 && mark<80)
+            {
+                document.getElementById('demo').innerHTML=(name+" Is First Class");
+            }
+            else if (mark>=35 && mark<50)
+            {
+                document.getElementById('demo').innerHTML=(name+" Is Second Class");
+            }
+            else 
+            {
+                document.getElementById('demo').innerHTML=(name+" Is Faill....");
+            }
+        }
+    </script>
+</body>
+</html>

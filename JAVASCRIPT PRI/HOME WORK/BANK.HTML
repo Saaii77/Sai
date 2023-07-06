@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+</head>
+<body>
+    <script>
+        var id,name,age,city,acc,civil;
+
+        id=prompt("Enter Id ");
+        name=prompt("Enter Name");
+        age=prompt("Enter Age");
+        city=prompt("Enter City");
+        acc=prompt("Enter Account Number");
+        civil=parseFloat(prompt("Enter Civil"));
+
+        document.write("Id :-"+id+"<br>");
+        document.write("Name :-"+name+"<br>");
+        document.write("Age:-"+age+"<br>");
+        document.write("City :-"+city+"<br>");
+        document.write("Account number :-"+acc+"<br>");
+        document.write("Civil :-"+civil+"<br>");
+        // if-else condition
+        if(civil>=7)
+        {
+            window.alert("Your eligibal for next lone");
+            document.write("Your eligibal for next lone" +"<br>");
+        }
+        else
+        {
+            window.alert("opps....beter luck next time");
+            document.write("opps....beter luck next time");
+        }
+        // if-else-if condition(nested-if)
+        if(civil>=8)
+        {
+            if(civil<10){
+                document.write("You get lone upto 1,00,000");
+            }
+            
+        }
+        if(civil>=6)
+        {
+            if(civil<8){
+                document.write("You get lone upto 50,000");
+            }
+            
+        }
+        if(civil>=4)
+        {
+            if(civil<6){
+                document.write("You get lone upto 25,000");
+            }
+            
+        }
+
+
+    </script>
+</body>
+</html>
